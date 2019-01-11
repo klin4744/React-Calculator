@@ -341,4 +341,4 @@ var Button = function (_CalculatorPanel2) {
   return Button;
 }(CalculatorPanel);
 
-ReactDOM.render(React.createElement(CalculatorPanel, null), document.getElementById("body"));
+ReactDOM.render(React.createElement(CalculatorPanel, null), document.querySelector("#body"));
